@@ -6,7 +6,7 @@ const features = [
   { title: 'All features', txt: 'Wallet has all the features - buy and transfer tokens, admin panel, etc.' },
   { title: 'No Metamask is required', txt: 'All operations that require private keys are executed on the server side.' },
   { title: 'Secure', txt: 'Sensitive data is encrypted, signup and sign in tokens use custom JWT solution.' },
-  { title: 'Passwordless', txt: 'The fastest signup and Ethereum account generation possible - no passwords is required.' }
+  { title: 'Passwordless', txt: 'The fastest signup and Ethereum account generation possible - no passwords are required.' }
 ]
 
 const Wallet = () => (

@@ -24,7 +24,7 @@ export const products = [
   {
     cat: cats[1],
     title: 'cubedCMS',
-    txt: 'cubedCMS is the global and scalable user management/ CMS system on Lambda, SES, SNS, Api Gateway, S3, DynamoDB and other AWS services. Features include: passwordless user register, sign in, sign out, upload, dashboard, settings, encrypted session, etc.',
+    txt: 'cubedCMS is the global and scalable user management/ CMS system on Lambda, SES, SNS, API Gateway, S3, DynamoDB and other AWS services. Features include: passwordless user register, sign in, sign out, upload, dashboard, settings, encrypted session, etc.',
     urls: [{ u: 'https://cubedcms.talaikis.com/', t: 'Demo', i: <FaDrumstickBite className="mx-auto" /> }],
     url: '/cubed-cms',
     image: '/static/images/cubed-cms.png'

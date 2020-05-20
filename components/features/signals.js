@@ -5,7 +5,7 @@ import Col from 'components/features/col'
 const features = [
   { title: 'Profitable', txt: 'Most of the strategies are highly performant, returns are usually way above the stock market.' },
   { title: 'Quantitative', txt: 'We believe in no B.S. science, statistics and probabilities. We test every idea and do that according to the rules of the backtesting.' },
-  { title: 'Little time investment', txt: 'Our basic strategies are daily, so do not required a lot of time investment. All strategies lower this timeframe are used with bots.' },
+  { title: 'Little time investment', txt: 'Our basic strategies are daily, so they do not require a lot of time investment. All strategies lower this timeframe are used with bots.' },
   { title: 'Custom solutions', txt: 'Please contact us for custom solutions.' }
 ]
 
