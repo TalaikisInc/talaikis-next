@@ -7,9 +7,10 @@ import { SITE_TITLE, DEFAULT_OG_TYPE, DEFAULT_DESCRIPTION, DEFAULT_IMAGE, AUTHOR
 const Meta = ({ title, path, image, description, noCrawl, type }) => {
   const pageProps = {
     path: `${SITE_URL}${path}`,
+    locale: 'en',
     image: typeof image === 'string' ? image : DEFAULT_IMAGE,
     fullTitle: path === '/' ? `${SITE_TITLE} | ${title}` : `${title} | ${SITE_TITLE}`,
-    fullUrl: path,
+    fullUrl: `${SITE_URL}${path}`,
     description: typeof description === 'string' ? description : DEFAULT_DESCRIPTION,
     type: typeof type === 'string' ? type : DEFAULT_OG_TYPE
   }

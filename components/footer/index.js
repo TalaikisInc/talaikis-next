@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaMedium, FaGithub, FaFacebook, FaLinkedin } from 'react-icons/fa'
+import { FaMedium, FaGithub, FaFacebook, FaLinkedin, FaGitlab } from 'react-icons/fa'
 
 import Link from './link'
 
@@ -19,7 +19,7 @@ const Footer = () => (
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">cubedCMS</h2>
           <nav className="list-none mb-10">
-            <Link t="cubedCMS demo" u="https://subedcms.talaikis.com/" />
+            <Link t="cubedCMS demo" u="https://cubedcms.talaikis.com/" />
             <Link t="Frontend Next" u="https://github.com/TalaikisInc/frontend-next" />
             <Link t="API Next" u="https://github.com/TalaikisInc/api-next" />
           </nav>
@@ -36,9 +36,9 @@ const Footer = () => (
         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
           <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Blockchain</h2>
           <nav className="list-none mb-10">
-            <Link t="Nakamoto Wallet" u="https://wallet.talaikis.com/" />
-            <Link t="Ethereum Wallet" u="https://nakamotowallet.org/" />
-            <Link t="Blockhain development" u="https://blockchain.alaikis.com/" />
+            <Link t="Nakamoto Wallet" u="https://nakamotowallet.org/" />
+            <Link t="Ethereum Wallet" u="https://wallet.talaikis.com/" />
+            <Link t="Blockhain development" u="https://blockchain.talaikis.com/" />
             <Link t="Independence Act" u="https://act.talaikis.com/" />
             <Link t="IPFS image uploader" u="https://ipfs.talaikis.com/" />
           </nav>
@@ -64,6 +64,9 @@ const Footer = () => (
           </a>
           <a href="https://github.com/TalaikisInc" className="ml-3 text-gray-500">
             <FaGithub />
+          </a>
+          <a href="https://gitlab.com/talaikis" className="ml-3 text-gray-500">
+            <FaGitlab />
           </a>
           <a href="https://medium.com/@talaikis" className="ml-3 text-gray-500">
             <FaMedium />

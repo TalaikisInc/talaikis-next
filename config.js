@@ -9,7 +9,7 @@ export const AUTHOR = 'Tadas Talaikis'
 export const FB_SITE = 'https://www.facebook.com/talaikis/'
 export const FB_APP_ID = null
 export const TWITTER_HANDLE = null
-export const SITE_URL = 'https://talaikis.com'
+export const SITE_URL = 'https://talaikis.com' // no slash!
 
 const cats = ['Blockchain', 'Web', 'Mobile', 'Trading']
 export const products = [

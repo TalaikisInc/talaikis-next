@@ -5,7 +5,7 @@ import Features from 'components/features/signals'
 import BTCSignalsHero from 'components/sections/hero/btcSignals'
 
 const TradingSignals = () => (
-  <Layout title="Bitcoin trading signals" path="/bitcoin-trading-signals">
+  <Layout title="Bitcoin trading signals" path="/bitcoin-trading-signals" image="https://www.talaikis.com/static/images/signals.jpg">
     <BTCSignalsHero />
     <Features />
   </Layout>
