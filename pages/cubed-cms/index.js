@@ -25,7 +25,8 @@ const marketing = [
   { icon: <FaCheckCircle className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Push notifications - subscribe/ unsubscribe', url: null },
   { icon: <FaCheckCircle className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Send push notification (for admins)', url: null },
   { icon: <FaCheckCircle className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Referral/ affiliates system', url: null },
-  { icon: <FaCheckCircle className="text-gray-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Role system', url: null }
+  { icon: <FaCheckCircle className="text-gray-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Role system', url: null },
+  { icon: <FaCheckCircle className="text-gray-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'A/B tests framework', url: null }
 ]
 
 const payments = [
@@ -53,6 +54,7 @@ const other = [
   { icon: <FaCheckCircle className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Upload functions', url: null },
   { icon: <FaCheckCircle className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Email templates', url: null },
   { icon: <FaCheckCircle className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'ORM', url: null },
+  { icon: <FaCheckCircle className="text-indigo-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Server side rendered pages', url: null },
   // dev
   { icon: <FaCheckCircle className="text-gray-500 w-6 h-6 flex-shrink-0 mr-4" />, txt: 'Global', url: null }
 ]

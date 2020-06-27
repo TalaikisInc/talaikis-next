@@ -53,7 +53,8 @@ const Footer = () => (
     </div>
     <div className="bg-gray-200">
       <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-        <p className="text-gray-500 text-sm text-center sm:text-left">&copy; 2020 <a href="https://talaikis.com/" title="Developer">Talaikis Ltd.</a>
+        <p className="text-gray-500 text-sm text-center sm:text-left">
+          &copy; { new Date().getFullYear() } <a href="https://talaikis.com/" title="Developer">Talaikis Ltd.</a> | <a href="/privacy-policy">Privacy policy</a> | <a href="/terms-of-service">Terms of service</a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
           <a href="https://www.linkedin.com/in/talaikis/" className="ml-3 text-gray-500">
