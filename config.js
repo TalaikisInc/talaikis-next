@@ -33,7 +33,7 @@ export const products = [
     cat: cats[3],
     title: 'Nakamoto Wallet',
     txt: 'Nakamoto Wallet is mobile decentralized Ethereum wallet. Features include: multiple accounts, tokens, balances, data encryption, easy QR-code token and Ether transfers. Currently app taken off public view.',
-    urls: [{ u: 'https://nakamotowallet.org/', t: 'Web', i: <FaServer className="mx-auto" /> }],
+    urls: [{ u: 'https://nakamoto.talaikis.com/', t: 'Web', i: <FaServer className="mx-auto" /> }],
     url: '/nakamoto-wallet',
     image: '/static/images/nakamoto-wallet.png'
   },
