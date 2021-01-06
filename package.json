@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/TalaikisInc/talaikis-next#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "next": "^9.4.4",
     "puppeteer": "^4.0.0",
     "react": "^16.13.1",
