@@ -1,0 +1,13 @@
+SharelineApplication:
+  component: "@sls-next/serverless-component@1.17.0"
+  inputs:
+    region: "eu-west-2"
+    memory: 1024
+    domain: "talaikis.com"
+    publicDirectoryCache: false
+    publicDirectoryCache:
+      value: public, max-age=604800
+      test: /\.(gif|jpe?g|png|txt|xml|ico)$/i
+    runtime: "nodejs12.x"
+    timeout: 5
+    name: talaikis.com
